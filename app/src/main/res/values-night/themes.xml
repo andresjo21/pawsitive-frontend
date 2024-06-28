@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Pawsitive" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="colorPrimaryDark">@color/primary</item> <!-- Color de la barra de notificaciones -->
+
+        <item name="android:windowBackground">@color/backgroundScreenDark</item>
+        <item name="colorSurface">@color/backgroundColorCardDark</item>
+    </style>
+</resources>

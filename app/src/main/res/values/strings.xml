@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Pawsitive</string>
+    <string name="title_home">Home</string>
+    <string name="title_approve">Approve</string>
+    <string name="title_new_post">New Post</string>
+    <string name="title_about">About</string>
+    <string name="title_user_profile">Profile</string>
+    <string name="title_favourites">Favourites</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_login_fragment">Hello login fragment</string>
+
+    <!-- Login -->
+    <string name="usernameText">username</string>
+    <string name="passwordText">password</string>
+    <string name="firstNameText">First Name</string>
+    <string name="lastNameText">Last Name</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >=5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <!-- Register placeholders-->
+    <string name="emailText">email</string>
+
+    <string name="searchText">Search</string>
+
+    <!--Button text-->
+    <string name="logInText">Log in</string>>
+    <string name="adminText">Admin</string>>
+    <string name="byText">By</string>
+
+    <!-- Labels text -->
+    <string name="nameLabel">Name: </string>
+    <string name="forLabel">For: </string>
+    <string name="animalLabel">Animal: </string>
+    <string name="addresLabel">Address: </string>
+    <string name="breedLabel">Breed: </string>
+    <string name="ageLabel">Age: </string>
+
+    <!--Labels for new post-->
+    <string name="addNameLabel">Add Name</string>
+    <string name="addForLabel">Add For</string>
+    <string name="addAnimalLabel">Add Animal</string>
+    <string name="addAddressLabel">Add Address</string>
+    <string name="addBreedLabel">Add Breed</string>
+    <string name="addAgeLabel">Add Age</string>
+    <string name="publishLabel">Publish</string>
+
+    <!--Labels for user_profile-->
+    <string name="editProfileButton">Edit Profile</string>
+    <string name="contactLabel">Contact</string>
+    <string name="mailText">. . . @ . . .com</string>
+    <string name="contentLabel">Content</string>
+    <string name="favoritesLabel">Favorites</string>
+    <string name="preferencesLabel">Preferences</string>
+    <string name="languageLabel">Language</string>
+    <string name="logoutButton">Log out</string>
+
+    <string name="signUpText">Sign Up</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>>
+
+    <string name="contactText">Contact</string>
+</resources>

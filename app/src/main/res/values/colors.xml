@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#FFD32F2F</color>
+
+    <!-- Primary color -->
+    <color name="primary">#79C381</color>
+
+    <!-- Bacground for input text -->
+    <color name="inputBackground">#F5F3E7</color>
+    <!-- Color text for inputs -->
+    <color name="inputText">#000000</color>
+    <!--hintText color-->
+    <color name="hintText">#4E4E4E</color>
+    <!--Botton black-->
+    <color name="blackBotton">#171F1D</color>
+    <color name="wineButton">#8F263F</color>
+    <!--Background for label-->
+    <color name="labelBackground">#F6F6F6</color>
+
+    <!-- Background colors in Light theme -->
+    <color name="backgroundScreen">#FFFFFFFF</color>
+    <color name="backgroundColorCardLight">#FFFFFFFF</color>
+
+    <!-- Background colors in Dark theme -->
+    <color name="backgroundScreenDark">#D5ECD7</color>
+    <color name="backgroundColorCardDark">#F1F9F2</color>
+
+</resources>

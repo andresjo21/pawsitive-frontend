@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.google.android.material.card.MaterialCardView
+        style="@style/CardViewBackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/favoriteLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <androidx.constraintlayout.utils.widget.ImageFilterButton
+                        android:id="@+id/imageFilterButton"
+                        android:layout_width="83dp"
+                        android:layout_height="wrap_content"
+                        android:background="@mipmap/image_place_holder_foreground" />
+
+                    <TextView
+                        android:id="@+id/petNameLabel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/text_inputs_styles"
+                        android:gravity="center"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:text="@string/nameLabel"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_large" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/forLabel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/text_inputs_styles"
+                        android:gravity="center"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:text="@string/forLabel"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_large" />
+
+                    <TextView
+                        android:id="@+id/animalLabel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/text_inputs_styles"
+                        android:gravity="center"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:text="@string/animalLabel"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_large" />
+
+                    <TextView
+                        android:id="@+id/addresLabel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/text_inputs_styles"
+                        android:gravity="center"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:text="@string/addresLabel"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_large" />
+
+                    <TextView
+                        android:id="@+id/breedLabel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/text_inputs_styles"
+                        android:gravity="center"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:text="@string/breedLabel"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_large" />
+
+                    <TextView
+                        android:id="@+id/ageLabel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/text_inputs_styles"
+                        android:gravity="center"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:text="@string/ageLabel"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_large" />
+
+                    <TextView
+                        android:id="@+id/contactButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/text_inputs_styles"
+                        android:paddingLeft="12dp"
+                        android:paddingTop="8dp"
+                        android:paddingRight="12dp"
+                        android:paddingBottom="8dp"
+                        android:text="@string/contactText"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="10dp">
+
+                <TextView
+                    android:id="@+id/aboutLabel"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:hint="@string/title_about"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"
+                    android:textSize="14sp" />
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_marginEnd="20dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/AiButton"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="@mipmap/ai_button_foreground" />
+
+                <ImageButton
+                    android:id="@+id/favoriteButton"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@null"
+                    android:scaleType="fitCenter"
+                    android:src="@mipmap/ic_heart_favourite_foreground" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        style="@style/CardViewBackground"
+        android:id="@+id/IaCardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="15dp"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/CostsText"
+                    android:layout_width="match_parent"
+                    android:layout_height="18dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="2dp"
+                    android:background="#F6F6F6"
+                    android:fontFamily="@font/roboto_mono"
+                    android:textStyle="bold"
+                    android:paddingStart="15dp"
+                    android:text="Costs :" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="10dp">
+
+                    <ProgressBar
+                        android:id="@+id/progressBarCosts"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/CostsTexArea"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center"
+                        android:hint="Loading..."
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
+                        android:textSize="14sp" />
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/caresText"
+                    android:layout_width="match_parent"
+                    android:layout_height="18dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="2dp"
+                    android:background="#F6F6F6"
+                    android:fontFamily="@font/roboto_mono"
+                    android:paddingStart="15dp"
+                    android:textStyle="bold"
+                    android:text="Cares :" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="10dp">
+
+                    <ProgressBar
+                        android:id="@+id/progressBarCares"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/CaresTexArea"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center"
+                        android:hint="Loading..."
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
+                        android:textSize="14sp" />
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/detailsTexts"
+                    android:layout_width="match_parent"
+                    android:layout_height="18dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="2dp"
+                    android:background="#F6F6F6"
+                    android:fontFamily="@font/roboto_mono"
+                    android:paddingStart="15dp"
+                    android:textStyle="bold"
+                    android:text="Details :" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="10dp">
+
+                    <ProgressBar
+                        android:id="@+id/progressBarDetails"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/DetailsTexArea"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center"
+                        android:hint="Loading..."
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
+                        android:textSize="14sp" />
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+</LinearLayout>

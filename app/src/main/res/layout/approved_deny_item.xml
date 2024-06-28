@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_margin="15dp">
+
+    <LinearLayout
+        android:id="@+id/approvedDenyLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="208dp"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.utils.widget.ImageFilterButton
+                android:id="@+id/imageFilterButton"
+                android:layout_width="143dp"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/image_place_holder_foreground" />
+
+            <TextView
+                android:id="@+id/petNameLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/text_inputs_styles"
+                android:gravity="center"
+                android:paddingLeft="15dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="@string/nameLabel"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_large" />
+
+            <TextView
+                android:id="@+id/aboutLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="@string/title_about"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/text_size_large" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/forLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/text_inputs_styles"
+                android:gravity="center"
+                android:paddingLeft="15dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="@string/forLabel"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_large" />
+
+            <TextView
+                android:id="@+id/animalLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/text_inputs_styles"
+                android:gravity="center"
+                android:paddingLeft="15dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="@string/animalLabel"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_large" />
+
+            <TextView
+                android:id="@+id/addresLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/text_inputs_styles"
+                android:gravity="center"
+                android:paddingLeft="15dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="@string/addresLabel"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_large" />
+
+            <TextView
+                android:id="@+id/breedLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/text_inputs_styles"
+                android:gravity="center"
+                android:paddingLeft="15dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="@string/breedLabel"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_large" />
+
+            <TextView
+                android:id="@+id/ageLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/text_inputs_styles"
+                android:gravity="center"
+                android:paddingLeft="15dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="@string/ageLabel"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_large" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="end"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageViewCheck"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    app:srcCompat="@mipmap/ic_check_foreground" />
+
+                <ImageView
+                    android:id="@+id/imageViewX"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    app:srcCompat="@mipmap/ic_x_foreground" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/homeAdmin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.home.Home">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="244dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/text_inputs_styles"
+                android:padding="10dp">
+
+                <EditText
+                    android:id="@+id/editTextSearch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/adminText"
+                    android:inputType="text"
+                    android:textColor="@color/inputText"
+                    android:textColorHint="@color/hintText" />
+
+            </FrameLayout>
+
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/primary"
+                android:text="Button"
+                android:textColor="@color/inputText"
+                android:textColorLink="@color/primary" />
+
+        </LinearLayout>
+
+        <Spinner
+            android:id="@+id/spinner_Backend_selector"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/text_inputs_styles"
+            android:gravity="center_horizontal"
+            android:minHeight="40dp"
+            android:textAlignment="center"
+            android:tooltipText="Select a Backend" />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvPostAdmin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp" />
+    </LinearLayout>
+</LinearLayout>

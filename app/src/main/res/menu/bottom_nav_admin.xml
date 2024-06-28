@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeAdminScreen"
+        android:icon="@drawable/baseline_home"
+        android:contentDescription="@string/title_home"
+        />
+    <item
+        android:id="@+id/adminApprove"
+        android:icon="@mipmap/admin_approve_image_foreground"
+        android:contentDescription="@string/title_home"
+        />
+    <item
+        android:id="@+id/userProfile"
+        android:icon="@mipmap/ic_user_profile_foreground"
+        android:contentDescription="@string/title_user_profile"
+        />
+
+</menu>

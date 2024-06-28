@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_admin"
+    app:startDestination="@id/homeAdminScreen">
+
+    <fragment
+        android:id="@+id/homeAdminScreen"
+        android:name="cr.una.pawsitive.view.home_admin.HomeAdmin"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/adminApprove"
+        android:name="cr.una.pawsitive.view.home_admin.HomeAdmin"
+        android:label="@string/title_approve"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/userProfile"
+        android:name="cr.una.pawsitive.view.user_profile.fragment_user_profile"
+        android:label="@string/title_user_profile"
+        tools:layout="@layout/fragment_user_profile" />
+
+</navigation>
